@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/message"
+        android:layout_gravity="end"
+        android:paddingStart="24dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="4dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hi_leo_whats_up_ni_need_new_logo_for_group"
+        android:lineSpacingExtra="@dimen/linespaceing"
+        android:layout_marginHorizontal="@dimen/paddingtext"
+        android:textColor="@color/white"
+        android:layout_gravity="end" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_done_all_24"
+            android:layout_gravity="end"
+            android:contentDescription="@string/done_sign"
+            app:tint="@color/white" />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="4dp"
+        android:text="@string/_22_30"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/message"
+        android:layout_gravity="end"
+        android:paddingStart="24dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simple_minimal_and_beauti"
+            android:layout_marginHorizontal="@dimen/paddingtext"
+            android:lineSpacingExtra="@dimen/linespaceing"
+            android:textColor="@color/white"
+            android:layout_gravity="end" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_done_all_24"
+            android:layout_gravity="end"
+            android:contentDescription="@string/done_sign"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="4dp"
+        android:text="@string/_22_31"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/whitemsg"
+        android:layout_gravity="start"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok_i_ll_start_next_week_nsend_me_documents_today"
+            android:lineSpacingExtra="@dimen/linespaceing"
+            android:textColor="@color/black"
+            android:layout_gravity="end" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/_22_32"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/message"
+        android:layout_gravity="end"
+        android:paddingStart="24dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oh_that_s_great"
+            android:lineSpacingExtra="@dimen/linespaceing"
+            android:layout_marginHorizontal="@dimen/paddingtext"
+            android:textColor="@color/white"
+            android:layout_gravity="end" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_done_all_24"
+            android:contentDescription="@string/done_sign"
+            android:layout_gravity="end"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="4dp"
+        android:text="@string/_22_33"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottomtext"
+        android:orientation="horizontal"
+        android:padding="12dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/emoji"
+            android:src="@drawable/ic_outline_emoji_emotions_24"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/attachfile"
+            android:src="@drawable/ic_baseline_attach_file_24"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/mic"
+            android:src="@drawable/ic_baseline_mic_none_24"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
